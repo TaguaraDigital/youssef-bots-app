@@ -1,7 +1,9 @@
+import styled from "styled-components";
+import { DocSection, DocTitle } from "./setting.Styles";
 const Doc = () => {
   return (
-    <div>
-      <h1>DOCUMENTATION</h1>
+    <DocSection>
+      <DocTitle>DOCUMENTATION</DocTitle>
       <p>Trate de hace algo parecido al Dashboard 1</p>
       <p>
         En el Header se muestras los menu desplegables sencillo y un mega menu.
@@ -25,7 +27,7 @@ const Doc = () => {
         En la tabla de tasas de cambio es un crud de tasa de cambio sobre la api
         que cree en nodejs
       </p>
-    </div>
+    </DocSection>
   );
 };
 
