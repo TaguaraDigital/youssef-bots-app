@@ -5,8 +5,8 @@ import * as FaIcons from "react-icons/fa";
 export const navElements = [
   {
     id: 1,
-    title: "Home",
-    path: "./",
+    title: "Doc",
+    path: "./doc",
     cName: "single",
     icon: <FaIcons.FaHome />,
   },

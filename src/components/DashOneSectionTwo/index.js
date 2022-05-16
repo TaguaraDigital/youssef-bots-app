@@ -6,7 +6,9 @@ const DashOneSectionTwo = () => {
   return (
     <>
       <Row>
-        <Chart1>{/* <MainIndicators /> */}</Chart1>
+        <Chart1>
+          <MainIndicators />
+        </Chart1>
         <Chart2>
           <UserLists />
         </Chart2>
