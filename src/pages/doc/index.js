@@ -10,7 +10,9 @@ const Doc = () => {
       </p>
       <p>
         Lo indicadores que se muestran de una API que devuelve diferentes
-        indicadores y precios de criptomonedas. <hr />
+        indicadores y precios de criptomonedas.
+      </p>
+      <p>
         Solo se muestran algunos la tasa de cambio Bolivar - Dolar en algunos
         bancos
       </p>

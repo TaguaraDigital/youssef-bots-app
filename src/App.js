@@ -4,7 +4,7 @@ import { GlobalStyle } from "./globalStyles";
 
 import Home from "./pages/home";
 import Doc from "./pages/doc";
-import Header from "./components/megaDropdownMenu";
+import Header from "./components/megaMenu";
 import Footer from "./components/footer";
 
 function App() {
