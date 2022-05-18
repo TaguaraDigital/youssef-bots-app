@@ -61,7 +61,6 @@ HelpersFinder.update = async (exchangeRate) => {
 
 // Delete exchange rate
 HelpersFinder.delete = async (exchangeRateId) => {
-  console.log("Eliminando ...", exchangeRateId);
   try {
     const response = await fetch(URL + exchangeRateId, {
       method: "DELETE",

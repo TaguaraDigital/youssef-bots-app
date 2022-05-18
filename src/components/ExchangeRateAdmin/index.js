@@ -110,7 +110,7 @@ const ExchangeRateAdmin = () => {
         const newExchangeRate = [...exchangeRates];
 
         const index = exchangeRates.findIndex(
-          (exchangeRate) => exchangeRateId._id === exchangeRateId
+          (exchangeRate) => exchangeRate._id === exchangeRateId
         );
         newExchangeRate.splice(index, 1);
         setExchangeRates(newExchangeRate);
