@@ -2,14 +2,14 @@ import * as FaIcons from "react-icons/fa";
 export const headerData = [
   {
     id: 1,
-    title: "Documentación",
+    title: "Doc",
     path: "./doc",
     cName: "single",
     icon: <FaIcons.FaHome />,
   },
   {
     id: 3,
-    title: "Create New",
+    title: "Dropdown",
     path: "./pages",
     cName: "dropdown",
     icon: <FaIcons.FaBriefcase />,
@@ -46,7 +46,7 @@ export const headerData = [
   },
   {
     id: 4,
-    title: "Mega Menu",
+    title: "MegaMenu",
     path: "./services",
     cName: "mega",
     icon: <FaIcons.FaMailBulk />,

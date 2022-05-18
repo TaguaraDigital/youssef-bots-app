@@ -1,5 +1,6 @@
 import { headerData as data } from "./data";
 import { useState, useContext } from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/image/logos/logo.png";
 import { FaBars, FaTimes, FaSearch } from "react-icons/fa";
@@ -45,18 +46,19 @@ const Header = () => {
               return link.cName === "single" ? (
                 // Single Link
                 <li key={link.id}>
-                  <a href={link.path}>{link.title}</a>
+                  <Link to={link.path}>{link.title}</Link>
                 </li>
               ) : // Dropdown Link
 
               link.cName === "dropdown" ? (
                 <li key={link.id} className={styles.subMenu}>
-                  <a href={link.path}>{link.title}</a>
+                  <Link to={link.path}>{link.title}</Link>
+
                   <ul className={styles.dropdownMenu}>
                     {link.subMenu.map((link) => {
                       return (
                         <li key={link.id}>
-                          <a href={link.path}>{link.title}</a>
+                          <Link to={link.path}>{link.title}</Link>
                         </li>
                       );
                     })}
@@ -65,7 +67,7 @@ const Header = () => {
               ) : (
                 // Mega Menu Link
                 <li key={link.id} className={styles.subMenu}>
-                  <a href={link.path}>{link.title}</a>
+                  <Link to={link.path}>{link.title}</Link>
                   <div className={styles.megaMenu}>
                     <div className={styles.content}>
                       {link.subMenu.map((item) => {
@@ -76,7 +78,7 @@ const Header = () => {
                               {item.subMenu?.map((i) => {
                                 return (
                                   <li key={i.id}>
-                                    <a href={i.path}>{i.title}</a>
+                                    <Link to={i.path}>{i.title}</Link>
                                   </li>
                                 );
                               })}
