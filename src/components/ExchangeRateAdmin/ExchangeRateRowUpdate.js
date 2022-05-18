@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./ExchangeRate.module.scss";
 import { FaPlus, FaCheck, FaBan } from "react-icons/fa";
 

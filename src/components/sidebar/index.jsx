@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import * as FaIcons from "react-icons/fa";
 import { SidebarMenu, SidebarNav } from "./sidebar.Styles";
 import { Link } from "react-router-dom";

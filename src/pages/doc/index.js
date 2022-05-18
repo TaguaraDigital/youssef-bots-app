@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { DocSection, DocTitle } from "./setting.Styles";
 const Doc = () => {
   return (
@@ -18,7 +17,7 @@ const Doc = () => {
       </p>
       <p>
         La tabla de usuarios que se muestran son los que devuelve la Api de
-        jsonplaceholder.typicode.com/users
+        <b> jsonplaceholder.typicode.com/users</b>
       </p>
       <p>
         El grafico de las tasas de cambio se construye con la libreria de

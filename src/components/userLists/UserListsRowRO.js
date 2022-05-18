@@ -1,5 +1,4 @@
 import styles from "./userLists.module.scss";
-import { FaPencilAlt, FaTrash } from "react-icons/fa";
 
 const ExchangeRateRowRO = ({ user }) => {
   return (
