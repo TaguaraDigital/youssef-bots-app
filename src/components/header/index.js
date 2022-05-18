@@ -11,6 +11,7 @@ import User from "../user";
 import Setting from "../setting";
 
 import {
+  Center,
   HeaderForm,
   HeaderLogo,
   Left,
@@ -38,52 +39,58 @@ const Header = () => {
             {showMobileMenu ? <FaTimes /> : <FaBars />}
           </ToggleMenu>
         </Left>
-        <ul className={styles.navLinks}>
-          {data.map((link) => {
-            return link.cName === "single" ? (
-              <li key={link.id}>
-                <a href={link.path}>{link.title}</a>
-              </li>
-            ) : link.cName === "dropdown" ? (
-              <li key={link.id} className={styles.subMenu}>
-                <a href={link.path}>{link.title}</a>
-                <ul className={styles.dropdownMenu}>
-                  {link.subMenu.map((link) => {
-                    return (
-                      <li key={link.id}>
-                        <a href={link.path}>{link.title}</a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </li>
-            ) : (
-              <li key={link.id} className={styles.subMenu}>
-                <a href={link.path}>{link.title}</a>
-                <div className={styles.megaMenu}>
-                  <div className={styles.content}>
-                    {link.subMenu.map((item) => {
+        <Center>
+          <ul className={styles.navLinks}>
+            {data.map((link) => {
+              return link.cName === "single" ? (
+                // Single Link
+                <li key={link.id}>
+                  <a href={link.path}>{link.title}</a>
+                </li>
+              ) : // Dropdown Link
+
+              link.cName === "dropdown" ? (
+                <li key={link.id} className={styles.subMenu}>
+                  <a href={link.path}>{link.title}</a>
+                  <ul className={styles.dropdownMenu}>
+                    {link.subMenu.map((link) => {
                       return (
-                        <div key={item.id} className={styles.row}>
-                          <p className={styles.title}>{item.title}</p>
-                          <ul className={styles.megaMenuLinks}>
-                            {item.subMenu?.map((i) => {
-                              return (
-                                <li key={i.id}>
-                                  <a href={i.path}>{i.title}</a>
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
+                        <li key={link.id}>
+                          <a href={link.path}>{link.title}</a>
+                        </li>
                       );
                     })}
+                  </ul>
+                </li>
+              ) : (
+                // Mega Menu Link
+                <li key={link.id} className={styles.subMenu}>
+                  <a href={link.path}>{link.title}</a>
+                  <div className={styles.megaMenu}>
+                    <div className={styles.content}>
+                      {link.subMenu.map((item) => {
+                        return (
+                          <div key={item.id} className={styles.row}>
+                            <p className={styles.title}>{item.title}</p>
+                            <ul className={styles.megaMenuLinks}>
+                              {item.subMenu?.map((i) => {
+                                return (
+                                  <li key={i.id}>
+                                    <a href={i.path}>{i.title}</a>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+                </li>
+              );
+            })}
+          </ul>
+        </Center>
         <Right>
           <HeaderForm>
             <span>

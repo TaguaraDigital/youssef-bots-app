@@ -24,15 +24,22 @@ export const Left = styled.div`
 `;
 
 export const Center = styled.div`
-  display: flex;
-  justify-content: space-between;
+  flex: 1;
+  display: none;
+  justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: 990px) {
+    display: flex;
+  }
 `;
 
 export const Right = styled.div`
+  max-width: 50%;
+  flex: 1;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `;
 
@@ -72,7 +79,7 @@ export const HeaderForm = styled.form`
       background: var(--whiteClr);
     }
 
-    @media screen and (min-width: 990px) {
+    @media screen and (min-width: 768px) {
       display: block;
     }
   }
