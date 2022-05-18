@@ -29,7 +29,7 @@ export const Center = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (min-width: 990px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 `;
