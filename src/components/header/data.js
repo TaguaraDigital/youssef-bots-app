@@ -1,77 +1,74 @@
-/**
- * https://github.com/mtajammulzia/navbar-dropdown/blob/main/components/NavItems.js
- *  */
 import * as FaIcons from "react-icons/fa";
-export const navElements = [
+export const headerData = [
   {
     id: 1,
-    title: "Doc",
+    title: "Documentación",
     path: "./doc",
     cName: "single",
     icon: <FaIcons.FaHome />,
   },
   {
-    id: 2,
+    id: 3,
     title: "Create New",
-    path: "./",
+    path: "./pages",
     cName: "dropdown",
     icon: <FaIcons.FaBriefcase />,
     subMenu: [
       {
         id: 1,
-        title: "Marketing",
-        path: "./",
+        title: "Page 1",
+        path: "./Page1",
         cName: "single",
         icon: <FaIcons.FaAd />,
       },
       {
         id: 2,
-        title: "Consulting",
-        path: "./",
+        title: "Page 2",
+        path: "./Page2",
         cName: "single",
         icon: <FaIcons.FaBeer />,
       },
       {
         id: 3,
-        title: "Design",
-        path: "./",
+        title: "Page 3",
+        path: "./Page3",
         cName: "single",
         icon: <FaIcons.FaBusinessTime />,
       },
       {
         id: 4,
-        title: "Development",
-        path: "./",
+        title: "Page 4",
+        path: "./Page4",
         cName: "single",
         icon: <FaIcons.FaCamera />,
       },
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Mega Menu",
-    path: "./",
-    cName: "megaDropdown",
+    path: "./services",
+    cName: "mega",
     icon: <FaIcons.FaMailBulk />,
     subMenu: [
       {
         id: 1,
-        title: "Marketing",
-        path: "./",
+        title: "Marketing 1",
+        path: "title",
         cName: "dropdown",
         icon: <FaIcons.FaAd />,
         subMenu: [
           {
             id: 1,
             title: "Marketing 1 - 1",
-            path: "./",
+            path: "./marketin11",
             cName: "single",
             icon: <FaIcons.FaAd />,
           },
           {
             id: 2,
             title: "Marketing 1 - 2",
-            path: "./",
+            path: "./marketin12",
             cName: "single",
             icon: <FaIcons.FaBeer />,
           },
@@ -86,8 +83,8 @@ export const navElements = [
       },
       {
         id: 2,
-        title: "Consulting 2",
-        path: "./",
+        title: "Marketing 2",
+        path: "./service2",
         cName: "dropdown",
         icon: <FaIcons.FaBeer />,
         subMenu: [
@@ -116,8 +113,8 @@ export const navElements = [
       },
       {
         id: 3,
-        title: "Design",
-        path: "./",
+        title: "Services 3",
+        path: "./service3",
         cName: "dropdown",
         icon: <FaIcons.FaBusinessTime />,
         subMenu: [

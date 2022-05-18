@@ -21,7 +21,7 @@ const ExchangeRateAdmin = () => {
   useEffect(() => {
     getExchangeRateData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [exchangeRates]);
+  }, []);
 
   const [addExchangeRateData, setAddExchangeRateData] = useState({
     _id: "",
@@ -57,12 +57,12 @@ const ExchangeRateAdmin = () => {
     setEditExchangeRateData(newFormData);
   };
 
-  const InsertExchangeRate = async (exchangeRate) => {
+  const AddExchangeRate = async (exchangeRate) => {
     try {
       const response = await HelpersFinder.create(exchangeRate);
       if (response.success) {
         const newExchangeRate = {
-          _id: response.data._id,
+          _id: response.data.insertId,
           date: addExchangeRateData.date,
           rate: addExchangeRateData.rate,
         };
@@ -86,9 +86,9 @@ const ExchangeRateAdmin = () => {
           rate: editExchangeRateData.rate,
         };
 
-        const newExchangeRate = [...exchangeRate];
+        const newExchangeRate = [...exchangeRates];
 
-        const index = exchangeRate.findIndex(
+        const index = exchangeRates.findIndex(
           (exchangeRate) => exchangeRate._id === editExchangeRateId
         );
 
@@ -132,7 +132,7 @@ const ExchangeRateAdmin = () => {
       Se ingresa en la base de datos el nuevo registros 
     ----------------------------------------------------*/
 
-    InsertExchangeRate(addExchangeRateData);
+    AddExchangeRate(addExchangeRateData);
   };
 
   const handleEditSubmit = (e) => {
@@ -174,8 +174,9 @@ const ExchangeRateAdmin = () => {
   };
 
   const handleDelete = (exchangeRateId) => {
-    // const confirmation = confirm(`Esta seguro de eliminar el esta tasa`);
-    const confirmation = false;
+    let confirmation = window.confirm(
+      `Esta seguro de eliminar el esta tasa ${exchangeRateId}`
+    );
     if (confirmation) {
       DeleteExchangeRate(exchangeRateId);
     }

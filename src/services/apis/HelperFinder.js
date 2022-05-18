@@ -59,4 +59,19 @@ HelpersFinder.update = async (exchangeRate) => {
   } catch (error) {}
 };
 
+// Delete exchange rate
+HelpersFinder.delete = async (exchangeRateId) => {
+  console.log("Eliminando ...", exchangeRateId);
+  try {
+    const response = await fetch(URL + exchangeRateId, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+        token: localStorage.token,
+      },
+    });
+    return await response.json();
+  } catch (error) {}
+};
+
 export default HelpersFinder;

@@ -30,7 +30,7 @@ const ExchangeRateRowRO = ({ exchangeRate, handleUpdate, handleDelete }) => {
           <button
             className={styles.tableAccion__delete}
             type="button"
-            onClick={() => handleDelete(exchangeRate.id)}
+            onClick={() => handleDelete(exchangeRate._id)}
           >
             <FaTrash />
           </button>

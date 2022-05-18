@@ -19,7 +19,6 @@ const UserList = () => {
 
         setUsers(data);
         setIsLoading(false);
-        console.log(data, isLoading);
       } catch (err) {
         console.log(err);
       }

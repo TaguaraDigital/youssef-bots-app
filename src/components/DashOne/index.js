@@ -1,7 +1,7 @@
 import DashOneSectionOne from "../DashOneSectionOne";
 import DashOneSectionTwo from "../DashOneSectionTwo";
 import DashOneSectionThree from "../DashOneSectionThree";
-import { Container, SectionThree, SectionTitle } from "./dashOne.Styles";
+import { Container, SectionTitle } from "./dashOne.Styles";
 
 const DashOne = () => {
   return (
