@@ -36,9 +36,6 @@ const Header = () => {
           <HeaderLogo to="/">
             <img src={logo} alt="Logo" />
           </HeaderLogo>
-          <ToggleMenu onClick={handleShowToggleMenu}>
-            {showMobileMenu ? <FaTimes /> : <FaBars />}
-          </ToggleMenu>
         </Left>
         <Center>
           <ul className={styles.navLinks}>

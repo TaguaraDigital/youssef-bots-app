@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { cardShadow, hoverEffect } from "../../services/utils/theme";
 
 export const Row = styled.div`
   padding: 1rem;
@@ -21,8 +22,13 @@ export const Card = styled.div`
   display: flex;
   word-wrap: break-word;
   background-color: var(--lightClr);
-  border: 0 solid var(--ct-card-border-color);
+  border: 1 solid var(--lightClr);
   border-radius: 0.25rem;
+  box-shadow: ${cardShadow};
+  transition: 0.4s ease-in-out;
+  &:hover {
+    box-shadow: ${hoverEffect};
+  }
 `;
 
 export const CardAvatar = styled.div`

@@ -76,7 +76,13 @@ export const HeaderForm = styled.form`
     display: none;
 
     input {
+      border: none;
+      outline: none;
+      margin-left: 10px;
+      border-radius: 5px;
       background: var(--whiteClr);
+
+      color: var(--blackClr);
     }
 
     @media screen and (min-width: 768px) {

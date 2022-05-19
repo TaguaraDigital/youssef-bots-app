@@ -1,15 +1,16 @@
-import Dashboard from "../../components/DashOne";
-import Sidebar from "../../components/sidebar";
-import { HomeContainer } from "./home.Styles";
+import DashOneSectionOne from "../../components/DashOneSectionOne";
+import DashOneSectionTwo from "../../components/DashOneSectionTwo";
+import DashOneSectionThree from "../../components/DashOneSectionThree";
+import { Container, SectionTitle } from "./home.Styles";
 
 const Home = () => {
   return (
-    <>
-      <HomeContainer>
-        <Sidebar />
-        <Dashboard />
-      </HomeContainer>
-    </>
+    <Container>
+      <SectionTitle>Dashboard</SectionTitle>
+      <DashOneSectionOne />
+      <DashOneSectionTwo />
+      <DashOneSectionThree />
+    </Container>
   );
 };
 
