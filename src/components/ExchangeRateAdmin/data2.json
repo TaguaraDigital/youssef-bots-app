@@ -1,0 +1,1113 @@
+{
+  "calls": 103,
+  "success": true,
+  "prev": null,
+  "next": 2,
+  "n": 50,
+  "date": 1652918093,
+  "date-format": "18-05-2022 11:54 pm",
+  "date-utc": "UTC-4",
+  "currency": "USD",
+  "data": [
+    {
+      "n": "0",
+      "name": "Bitcoin",
+      "code": "BTC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 29232.49,
+        "last": 28653.03,
+        "change": 579.46,
+        "percent": 2.0223,
+        "ranking": 1
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "29.232,49 USD/BTC",
+        "last": "28.653,03 USD/BTC",
+        "change": "579,46 USD/BTC",
+        "percent": "2,02%",
+        "ranking": 1
+      }
+    },
+    {
+      "n": "1",
+      "name": "Ethereum",
+      "code": "ETH",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCETH.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 1958.31,
+        "last": 1908.7,
+        "change": 49.61,
+        "percent": 2.5992,
+        "ranking": 2
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "1.958,31 USD/ETH",
+        "last": "1.908,70 USD/ETH",
+        "change": "49,61 USD/ETH",
+        "percent": "2,60%",
+        "ranking": 2
+      }
+    },
+    {
+      "n": "2",
+      "name": "Tether",
+      "code": "USDT",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCUSDT.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.9986,
+        "last": 0.9987,
+        "change": -0.00014,
+        "percent": -0.014018,
+        "ranking": 3
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,9986 USD/USDT",
+        "last": "0,9987 USD/USDT",
+        "change": "-0,000140000000 USD/USDT",
+        "percent": "-0,01%",
+        "ranking": 3
+      }
+    },
+    {
+      "n": "3",
+      "name": "USD Coin",
+      "code": "USDC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCUSDC.svg",
+      "data": {
+        "date": 1652929802,
+        "rate": 1,
+        "last": 1,
+        "change": 0,
+        "percent": 0,
+        "ranking": 4
+      },
+      "format": {
+        "date": "18-05-2022 11:10 pm",
+        "rate": "1,0000 USD/USDC",
+        "last": "1,0000 USD/USDC",
+        "change": "0,00 USD/USDC",
+        "percent": "0,00%",
+        "ranking": 4
+      }
+    },
+    {
+      "n": "4",
+      "name": "Binance Coin",
+      "code": "BNB",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBNB.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 295.9,
+        "last": 286.6,
+        "change": 9.3,
+        "percent": 3.2449,
+        "ranking": 5
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "295,90 USD/BNB",
+        "last": "286,60 USD/BNB",
+        "change": "9,3000 USD/BNB",
+        "percent": "3,24%",
+        "ranking": 5
+      }
+    },
+    {
+      "n": "5",
+      "name": "XRP",
+      "code": "XRP",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCXRP.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.4093,
+        "last": 0.4043,
+        "change": 0.00502,
+        "percent": 1.2418,
+        "ranking": 6
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,4093 USD/XRP",
+        "last": "0,4043 USD/XRP",
+        "change": "0,005020 USD/XRP",
+        "percent": "1,24%",
+        "ranking": 6
+      }
+    },
+    {
+      "n": "6",
+      "name": "HEX",
+      "code": "HEX",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCHEX.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.1094,
+        "last": 0.1099,
+        "change": -0.00055464,
+        "percent": -0.5046,
+        "ranking": 7
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,1094 USD/HEX",
+        "last": "0,1099 USD/HEX",
+        "change": "-0,000554640000 USD/HEX",
+        "percent": "-0,50%",
+        "ranking": 7
+      }
+    },
+    {
+      "n": "7",
+      "name": "Cardano",
+      "code": "ADA",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCADA.svg",
+      "data": {
+        "date": 1652931901,
+        "rate": 0.52,
+        "last": 0.504,
+        "change": 0.016,
+        "percent": 3.1746,
+        "ranking": 8
+      },
+      "format": {
+        "date": "18-05-2022 11:45 pm",
+        "rate": "0,5200 USD/ADA",
+        "last": "0,5040 USD/ADA",
+        "change": "0,016000 USD/ADA",
+        "percent": "3,17%",
+        "ranking": 8
+      }
+    },
+    {
+      "n": "8",
+      "name": "Solana",
+      "code": "SOL",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCSOL.svg",
+      "data": {
+        "date": 1652931901,
+        "rate": 50.78,
+        "last": 49.68,
+        "change": 1.1,
+        "percent": 2.2142,
+        "ranking": 9
+      },
+      "format": {
+        "date": "18-05-2022 11:45 pm",
+        "rate": "50,78 USD/SOL",
+        "last": "49,68 USD/SOL",
+        "change": "1,1000 USD/SOL",
+        "percent": "2,21%",
+        "ranking": 9
+      }
+    },
+    {
+      "n": "9",
+      "name": "Dogecoin",
+      "code": "DOGE",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCDOGE.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.0842,
+        "last": 0.0832,
+        "change": 0.001,
+        "percent": 1.2019,
+        "ranking": 10
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,084200 USD/DOGE",
+        "last": "0,083200 USD/DOGE",
+        "change": "0,001000 USD/DOGE",
+        "percent": "1,20%",
+        "ranking": 10
+      }
+    },
+    {
+      "n": "10",
+      "name": "HitChain",
+      "code": "HIT",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCHIT.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.1616,
+        "last": 0.1582,
+        "change": 0.003334,
+        "percent": 2.1071,
+        "ranking": 11
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,1616 USD/HIT",
+        "last": "0,1582 USD/HIT",
+        "change": "0,003334 USD/HIT",
+        "percent": "2,11%",
+        "ranking": 11
+      }
+    },
+    {
+      "n": "11",
+      "name": "Polkadot",
+      "code": "DOT",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCDOT.svg",
+      "data": {
+        "date": 1652931901,
+        "rate": 9.73,
+        "last": 9.47,
+        "change": 0.26,
+        "percent": 2.7455,
+        "ranking": 12
+      },
+      "format": {
+        "date": "18-05-2022 11:45 pm",
+        "rate": "9,7300 USD/DOT",
+        "last": "9,4700 USD/DOT",
+        "change": "0,2600 USD/DOT",
+        "percent": "2,75%",
+        "ranking": 12
+      }
+    },
+    {
+      "n": "12",
+      "name": "Wrapped Bitcoin",
+      "code": "WBTC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCWBTC.svg",
+      "data": {
+        "date": 1652931302,
+        "rate": 29144.02,
+        "last": 28683.35,
+        "change": 460.67,
+        "percent": 1.606,
+        "ranking": 13
+      },
+      "format": {
+        "date": "18-05-2022 11:35 pm",
+        "rate": "29.144,02 USD/WBTC",
+        "last": "28.683,35 USD/WBTC",
+        "change": "460,67 USD/WBTC",
+        "percent": "1,61%",
+        "ranking": 13
+      }
+    },
+    {
+      "n": "13",
+      "name": "Avalanche",
+      "code": "AVAX",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCAVAX.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 29.97,
+        "last": 29.45,
+        "change": 0.5185,
+        "percent": 1.7604,
+        "ranking": 14
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "29,97 USD/AVAX",
+        "last": "29,45 USD/AVAX",
+        "change": "0,5185 USD/AVAX",
+        "percent": "1,76%",
+        "ranking": 14
+      }
+    },
+    {
+      "n": "14",
+      "name": "TRON",
+      "code": "TRX",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCTRX.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.071925,
+        "last": 0.071095,
+        "change": 0.00082991,
+        "percent": 1.1673,
+        "ranking": 15
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,071925 USD/TRX",
+        "last": "0,071095 USD/TRX",
+        "change": "0,00082991 USD/TRX",
+        "percent": "1,17%",
+        "ranking": 15
+      }
+    },
+    {
+      "n": "15",
+      "name": "Dai",
+      "code": "DAI",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCDAI.svg",
+      "data": {
+        "date": 1652931901,
+        "rate": 1.0014,
+        "last": 1.0007,
+        "change": 0.0007,
+        "percent": 0.069951,
+        "ranking": 16
+      },
+      "format": {
+        "date": "18-05-2022 11:45 pm",
+        "rate": "1,0014 USD/DAI",
+        "last": "1,0007 USD/DAI",
+        "change": "0,00070000 USD/DAI",
+        "percent": "0,07%",
+        "ranking": 16
+      }
+    },
+    {
+      "n": "16",
+      "name": "SHIBA INU",
+      "code": "SHIB",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCSHIB.svg",
+      "data": {
+        "date": 1652930402,
+        "rate": 1.163e-5,
+        "last": 1.121e-5,
+        "change": 4.2e-7,
+        "percent": 3.7467,
+        "ranking": 17
+      },
+      "format": {
+        "date": "18-05-2022 11:20 pm",
+        "rate": "0,00001163 USD/SHIB",
+        "last": "0,00001121 USD/SHIB",
+        "change": "0,0000004200 USD/SHIB",
+        "percent": "3,75%",
+        "ranking": 17
+      }
+    },
+    {
+      "n": "17",
+      "name": "Polygon",
+      "code": "MATIC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCMATIC.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.639,
+        "last": 0.624,
+        "change": 0.015,
+        "percent": 2.4038,
+        "ranking": 18
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,6390 USD/MATIC",
+        "last": "0,6240 USD/MATIC",
+        "change": "0,015000 USD/MATIC",
+        "percent": "2,40%",
+        "ranking": 18
+      }
+    },
+    {
+      "n": "18",
+      "name": "UNUS SED LEO",
+      "code": "LEO",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCLEO.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 5.2805,
+        "last": 4.9706,
+        "change": 0.3099,
+        "percent": 6.2347,
+        "ranking": 19
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "5,2805 USD/LEO",
+        "last": "4,9706 USD/LEO",
+        "change": "0,3099 USD/LEO",
+        "percent": "6,23%",
+        "ranking": 19
+      }
+    },
+    {
+      "n": "19",
+      "name": "Litecoin",
+      "code": "LTC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCLTC.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 67.74,
+        "last": 65.85,
+        "change": 1.8912,
+        "percent": 2.8718,
+        "ranking": 20
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "67,74 USD/LTC",
+        "last": "65,85 USD/LTC",
+        "change": "1,8912 USD/LTC",
+        "percent": "2,87%",
+        "ranking": 20
+      }
+    },
+    {
+      "n": "20",
+      "name": "FTX Token",
+      "code": "FTT",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCFTT.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 30.33,
+        "last": 29.65,
+        "change": 0.6858,
+        "percent": 2.3133,
+        "ranking": 21
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "30,33 USD/FTT",
+        "last": "29,65 USD/FTT",
+        "change": "0,6858 USD/FTT",
+        "percent": "2,31%",
+        "ranking": 21
+      }
+    },
+    {
+      "n": "21",
+      "name": "NEAR Protocol",
+      "code": "NEAR",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCNEAR.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 5.909,
+        "last": 5.8686,
+        "change": 0.040404,
+        "percent": 0.6885,
+        "ranking": 22
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "5,9090 USD/NEAR",
+        "last": "5,8686 USD/NEAR",
+        "change": "0,040404 USD/NEAR",
+        "percent": "0,69%",
+        "ranking": 22
+      }
+    },
+    {
+      "n": "22",
+      "name": "Bitcoin Cash",
+      "code": "BCH",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBCH.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 188.71,
+        "last": 188.65,
+        "change": 0.06,
+        "percent": 0.031805,
+        "ranking": 23
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "188,71 USD/BCH",
+        "last": "188,65 USD/BCH",
+        "change": "0,060000 USD/BCH",
+        "percent": "0,03%",
+        "ranking": 23
+      }
+    },
+    {
+      "n": "23",
+      "name": "Uniswap",
+      "code": "UNI",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCUNI.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 4.9114,
+        "last": 4.8748,
+        "change": 0.036586,
+        "percent": 0.7505,
+        "ranking": 24
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "4,9114 USD/UNI",
+        "last": "4,8748 USD/UNI",
+        "change": "0,036586 USD/UNI",
+        "percent": "0,75%",
+        "ranking": 24
+      }
+    },
+    {
+      "n": "24",
+      "name": "ChainLink",
+      "code": "LINK",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCLINK.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 6.9115,
+        "last": 6.7958,
+        "change": 0.1157,
+        "percent": 1.7025,
+        "ranking": 25
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "6,9115 USD/LINK",
+        "last": "6,7958 USD/LINK",
+        "change": "0,1157 USD/LINK",
+        "percent": "1,70%",
+        "ranking": 25
+      }
+    },
+    {
+      "n": "25",
+      "name": "Stellar",
+      "code": "XLM",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCXLM.svg",
+      "data": {
+        "date": 1652930102,
+        "rate": 0.1278,
+        "last": 0.1318,
+        "change": -0.004056,
+        "percent": -3.0775,
+        "ranking": 26
+      },
+      "format": {
+        "date": "18-05-2022 11:15 pm",
+        "rate": "0,1278 USD/XLM",
+        "last": "0,1318 USD/XLM",
+        "change": "-0,004056370000 USD/XLM",
+        "percent": "-3,08%",
+        "ranking": 26
+      }
+    },
+    {
+      "n": "26",
+      "name": "Bitcoin BEP2",
+      "code": "BTCB",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 29232.17,
+        "last": 28629.04,
+        "change": 603.13,
+        "percent": 2.1067,
+        "ranking": 27
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "29.232,17 USD/BTCB",
+        "last": "28.629,04 USD/BTCB",
+        "change": "603,13 USD/BTCB",
+        "percent": "2,11%",
+        "ranking": 27
+      }
+    },
+    {
+      "n": "27",
+      "name": "Algorand",
+      "code": "ALGO",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCALGO.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.4434,
+        "last": 0.4313,
+        "change": 0.012102,
+        "percent": 2.8056,
+        "ranking": 28
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,4434 USD/ALGO",
+        "last": "0,4313 USD/ALGO",
+        "change": "0,012102 USD/ALGO",
+        "percent": "2,81%",
+        "ranking": 28
+      }
+    },
+    {
+      "n": "28",
+      "name": "Cosmos",
+      "code": "ATO",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCATOM.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 10.27,
+        "last": 10.08,
+        "change": 0.184,
+        "percent": 1.8249,
+        "ranking": 29
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "10,27 USD/ATO",
+        "last": "10,08 USD/ATO",
+        "change": "0,1840 USD/ATO",
+        "percent": "1,82%",
+        "ranking": 29
+      }
+    },
+    {
+      "n": "29",
+      "name": "Flow (Dapper Labs)",
+      "code": "FLOW",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCFLOW.svg",
+      "data": {
+        "date": 1652931601,
+        "rate": 2.811,
+        "last": 2.8314,
+        "change": -0.020416,
+        "percent": -0.7211,
+        "ranking": 30
+      },
+      "format": {
+        "date": "18-05-2022 11:40 pm",
+        "rate": "2,8110 USD/FLOW",
+        "last": "2,8314 USD/FLOW",
+        "change": "-0,020415960000 USD/FLOW",
+        "percent": "-0,72%",
+        "ranking": 30
+      }
+    },
+    {
+      "n": "30",
+      "name": "Monero",
+      "code": "XMR",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCXMR.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 156.76,
+        "last": 154.82,
+        "change": 1.936,
+        "percent": 1.2505,
+        "ranking": 31
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "156,76 USD/XMR",
+        "last": "154,82 USD/XMR",
+        "change": "1,9360 USD/XMR",
+        "percent": "1,25%",
+        "ranking": 31
+      }
+    },
+    {
+      "n": "31",
+      "name": "Ethereum Classic",
+      "code": "ETC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCETC.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 20.2,
+        "last": 19.81,
+        "change": 0.3905,
+        "percent": 1.9709,
+        "ranking": 32
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "20,20 USD/ETC",
+        "last": "19,81 USD/ETC",
+        "change": "0,3905 USD/ETC",
+        "percent": "1,97%",
+        "ranking": 32
+      }
+    },
+    {
+      "n": "32",
+      "name": "APEcoin.dev",
+      "code": "APE",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCAPEAPECOIN.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 7.916,
+        "last": 7.8975,
+        "change": 0.0185,
+        "percent": 0.2343,
+        "ranking": 33
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "7,9160 USD/APE",
+        "last": "7,8975 USD/APE",
+        "change": "0,018500 USD/APE",
+        "percent": "0,23%",
+        "ranking": 33
+      }
+    },
+    {
+      "n": "33",
+      "name": "Hedera Hashgraph",
+      "code": "HBAR",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCHBAR.svg",
+      "data": {
+        "date": 1652931002,
+        "rate": 0.1002,
+        "last": 0.099755,
+        "change": 0.00045478,
+        "percent": 0.4559,
+        "ranking": 34
+      },
+      "format": {
+        "date": "18-05-2022 11:30 pm",
+        "rate": "0,1002 USD/HBAR",
+        "last": "0,099755 USD/HBAR",
+        "change": "0,00045478 USD/HBAR",
+        "percent": "0,46%",
+        "ranking": 34
+      }
+    },
+    {
+      "n": "34",
+      "name": "Elrond",
+      "code": "EGLD",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCEGLD.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 90.04,
+        "last": 91.51,
+        "change": -1.4675,
+        "percent": -1.6037,
+        "ranking": 35
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "90,04 USD/EGLD",
+        "last": "91,51 USD/EGLD",
+        "change": "-1,467463000000 USD/EGLD",
+        "percent": "-1,60%",
+        "ranking": 35
+      }
+    },
+    {
+      "n": "35",
+      "name": "Decentraland",
+      "code": "MANA",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCMANA.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 1.0375,
+        "last": 1.0312,
+        "change": 0.006306,
+        "percent": 0.6115,
+        "ranking": 36
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "1,0375 USD/MANA",
+        "last": "1,0312 USD/MANA",
+        "change": "0,006306 USD/MANA",
+        "percent": "0,61%",
+        "ranking": 36
+      }
+    },
+    {
+      "n": "36",
+      "name": "VeChain",
+      "code": "VET",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCVET.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 0.029523,
+        "last": 0.029253,
+        "change": 0.00026999,
+        "percent": 0.9229,
+        "ranking": 37
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "0,029523 USD/VET",
+        "last": "0,029253 USD/VET",
+        "change": "0,00026999 USD/VET",
+        "percent": "0,92%",
+        "ranking": 37
+      }
+    },
+    {
+      "n": "37",
+      "name": "Internet Computer",
+      "code": "ICP",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCICP.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 7.66,
+        "last": 7.47,
+        "change": 0.19,
+        "percent": 2.5435,
+        "ranking": 38
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "7,6600 USD/ICP",
+        "last": "7,4700 USD/ICP",
+        "change": "0,1900 USD/ICP",
+        "percent": "2,54%",
+        "ranking": 38
+      }
+    },
+    {
+      "n": "38",
+      "name": "Filecoin",
+      "code": "FIL",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCFIL.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 7.7771,
+        "last": 7.544,
+        "change": 0.2331,
+        "percent": 3.0892,
+        "ranking": 39
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "7,7771 USD/FIL",
+        "last": "7,5440 USD/FIL",
+        "change": "0,2331 USD/FIL",
+        "percent": "3,09%",
+        "ranking": 39
+      }
+    },
+    {
+      "n": "39",
+      "name": "Chain",
+      "code": "XCN",
+      "icon": "",
+      "data": {
+        "date": 1652929502,
+        "rate": 0.0939,
+        "last": 0.09509,
+        "change": -0.00119,
+        "percent": -1.2514,
+        "ranking": 40
+      },
+      "format": {
+        "date": "18-05-2022 11:05 pm",
+        "rate": "0,093900 USD/XCN",
+        "last": "0,095090 USD/XCN",
+        "change": "-0,001190000000 USD/XCN",
+        "percent": "-1,25%",
+        "ranking": 40
+      }
+    },
+    {
+      "n": "40",
+      "name": "Tezos",
+      "code": "XTZ",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCXTZ.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 1.6808,
+        "last": 1.676,
+        "change": 0.0048,
+        "percent": 0.2864,
+        "ranking": 41
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "1,6808 USD/XTZ",
+        "last": "1,6760 USD/XTZ",
+        "change": "0,004800 USD/XTZ",
+        "percent": "0,29%",
+        "ranking": 41
+      }
+    },
+    {
+      "n": "41",
+      "name": "The Sandbox",
+      "code": "SAND",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCSAND.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 1.207,
+        "last": 1.1878,
+        "change": 0.019211,
+        "percent": 1.6173,
+        "ranking": 42
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "1,2070 USD/SAND",
+        "last": "1,1878 USD/SAND",
+        "change": "0,019211 USD/SAND",
+        "percent": "1,62%",
+        "ranking": 42
+      }
+    },
+    {
+      "n": "42",
+      "name": "Zcash",
+      "code": "ZEC",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCZEC.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 101.44,
+        "last": 100.44,
+        "change": 1.0072,
+        "percent": 1.0029,
+        "ranking": 43
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "101,44 USD/ZEC",
+        "last": "100,44 USD/ZEC",
+        "change": "1,0072 USD/ZEC",
+        "percent": "1,00%",
+        "ranking": 43
+      }
+    },
+    {
+      "n": "43",
+      "name": "CoTrader",
+      "code": "COT",
+      "icon": "",
+      "data": {
+        "date": 1652921701,
+        "rate": 0.076069,
+        "last": 0.076959,
+        "change": -0.00088937,
+        "percent": -1.1556,
+        "ranking": 44
+      },
+      "format": {
+        "date": "18-05-2022 08:55 pm",
+        "rate": "0,076069 USD/COT",
+        "last": "0,076959 USD/COT",
+        "change": "-0,000889370000 USD/COT",
+        "percent": "-1,16%",
+        "ranking": 44
+      }
+    },
+    {
+      "n": "44",
+      "name": "DeFiChain",
+      "code": "DFI",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCDFI.svg",
+      "data": {
+        "date": 1652930102,
+        "rate": 2.8026,
+        "last": 2.7716,
+        "change": 0.031024,
+        "percent": 1.1194,
+        "ranking": 45
+      },
+      "format": {
+        "date": "18-05-2022 11:15 pm",
+        "rate": "2,8026 USD/DFI",
+        "last": "2,7716 USD/DFI",
+        "change": "0,031024 USD/DFI",
+        "percent": "1,12%",
+        "ranking": 45
+      }
+    },
+    {
+      "n": "45",
+      "name": "Toncoin",
+      "code": "TONCOIN",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCTONCOIN.svg",
+      "data": {
+        "date": 1645747502,
+        "rate": 2.17,
+        "last": 2.176,
+        "change": -0.006,
+        "percent": -0.2757,
+        "ranking": 46
+      },
+      "format": {
+        "date": "24-02-2022 08:05 pm",
+        "rate": "2,1700 USD/TONCOIN",
+        "last": "2,1760 USD/TONCOIN",
+        "change": "-0,006000000000 USD/TONCOIN",
+        "percent": "-0,28%",
+        "ranking": 46
+      }
+    },
+    {
+      "n": "46",
+      "name": "Maker",
+      "code": "MKR",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCMKR.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 1423.3,
+        "last": 1430,
+        "change": -6.7,
+        "percent": -0.4685,
+        "ranking": 47
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "1.423,30 USD/MKR",
+        "last": "1.430,00 USD/MKR",
+        "change": "-6,700000000000 USD/MKR",
+        "percent": "-0,47%",
+        "ranking": 47
+      }
+    },
+    {
+      "n": "47",
+      "name": "PancakeSwap",
+      "code": "CAKE",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCCAKE.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 4.4148,
+        "last": 4.3011,
+        "change": 0.1137,
+        "percent": 2.6427,
+        "ranking": 48
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "4,4148 USD/CAKE",
+        "last": "4,3011 USD/CAKE",
+        "change": "0,1137 USD/CAKE",
+        "percent": "2,64%",
+        "ranking": 48
+      }
+    },
+    {
+      "n": "48",
+      "name": "Axie Infinity",
+      "code": "AXS",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCAXS.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 21.43,
+        "last": 21.51,
+        "change": -0.077324,
+        "percent": -0.3595,
+        "ranking": 49
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "21,43 USD/AXS",
+        "last": "21,51 USD/AXS",
+        "change": "-0,077324000000 USD/AXS",
+        "percent": "-0,36%",
+        "ranking": 49
+      }
+    },
+    {
+      "n": "49",
+      "name": "EOS",
+      "code": "EOS",
+      "icon": "https://s3-symbol-logo.tradingview.com/crypto/XTVCEOS.svg",
+      "data": {
+        "date": 1652932202,
+        "rate": 1.2767,
+        "last": 1.2677,
+        "change": 0.009012,
+        "percent": 0.7109,
+        "ranking": 50
+      },
+      "format": {
+        "date": "18-05-2022 11:50 pm",
+        "rate": "1,2767 USD/EOS",
+        "last": "1,2677 USD/EOS",
+        "change": "0,009012 USD/EOS",
+        "percent": "0,71%",
+        "ranking": 50
+      }
+    }
+  ]
+}

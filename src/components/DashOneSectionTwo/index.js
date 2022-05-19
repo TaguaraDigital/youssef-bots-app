@@ -1,5 +1,6 @@
 import { Chart1, Chart2, Row } from "./dashOneSectionTwo.Styles";
-import MainIndicators from "../MainIndicators";
+// import MainIndicators from "../kpi/MainIndicators";
+import MainCriptos from "../kpi/MainCriptos";
 import UserLists from "../userLists";
 
 const DashOneSectionTwo = () => {
@@ -7,7 +8,7 @@ const DashOneSectionTwo = () => {
     <>
       <Row>
         <Chart1>
-          <MainIndicators />
+          <MainCriptos />
         </Chart1>
         <Chart2>
           <UserLists />
