@@ -1,28 +1,33 @@
 import {
   FaBusinessTime,
-  FaCamera,
   FaHome,
   FaLock,
   FaMailBulk,
   FaMoneyBill,
+  FaSignOutAlt,
   FaUser,
 } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import { BiAnalyse } from "react-icons/bi";
 import { BiCog } from "react-icons/bi";
-import { AiFillHeart, AiTwotoneFileExclamation } from "react-icons/ai";
+import { AiOutlineDashboard, AiTwotoneFileExclamation } from "react-icons/ai";
 import { BsCartCheck } from "react-icons/bs";
 
 export const routes = [
   {
     path: "/",
-    name: "Dashboard",
+    name: "Home",
     icon: <FaHome />,
+  },
+  {
+    path: "/",
+    name: "Dashboard",
+    icon: <AiOutlineDashboard />,
     subRoutes: [
       {
-        path: "/dasboard1",
-        name: "Dashboard 1",
-        icon: <FaCamera />,
+        path: "/",
+        name: "Dashboard",
+        icon: <FaHome />,
       },
       {
         path: "/dasboard2",
@@ -102,8 +107,8 @@ export const routes = [
     ],
   },
   {
-    path: "/saved",
-    name: "Saved",
-    icon: <AiFillHeart />,
+    path: "/",
+    name: "Logout",
+    icon: <FaSignOutAlt />,
   },
 ];
