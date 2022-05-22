@@ -1,5 +1,5 @@
-import styles from "./ExchangeRate.module.scss";
-import { FaPlus, FaCheck, FaBan } from "react-icons/fa";
+import styles from './ExchangeRate.module.scss';
+import { FaPlus, FaCheck, FaBan } from 'react-icons/fa';
 
 const ExchangeRateRowUpdate = ({
   accion,
@@ -8,6 +8,8 @@ const ExchangeRateRowUpdate = ({
   handleEditSubmit,
   handleCancel,
 }) => {
+  const fecha = exchangeRate.date.slice(0, 10);
+
   return (
     <tr className={styles.tableRow}>
       <td className={styles.tableCell} data-col-title="Id">
@@ -18,7 +20,7 @@ const ExchangeRateRowUpdate = ({
           className={styles.input}
           type="date"
           name="date"
-          value={exchangeRate.date}
+          value={fecha}
           placeholder=" Ingrese la fecha"
           onChange={handleEditChange}
         />
@@ -44,7 +46,7 @@ const ExchangeRateRowUpdate = ({
             onClick={handleEditSubmit}
             className={styles.tableAccion__update}
           >
-            {accion === "ADD" ? <FaPlus /> : <FaCheck />}
+            {accion === 'ADD' ? <FaPlus /> : <FaCheck />}
           </button>
           <button
             type="submit"

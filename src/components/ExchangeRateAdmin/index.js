@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from 'react';
 
-import styles from "./ExchangeRate.module.scss";
-import ExchangeRateRowRO from "./ExchangeRateRowRO";
-import ExchangeRateRowUpdate from "./ExchangeRateRowUpdate";
-import ExchangeRateTableHeader from "./ExchangeRateTableHeader";
-import HelpersFinder from "../../services/apis/HelperFinder";
+import styles from './ExchangeRate.module.scss';
+import ExchangeRateRowRO from './ExchangeRateRowRO';
+import ExchangeRateRowUpdate from './ExchangeRateRowUpdate';
+import ExchangeRateTableHeader from './ExchangeRateTableHeader';
+import HelpersFinder from '../../services/apis/HelperFinder';
 
 const ExchangeRateAdmin = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -24,20 +24,20 @@ const ExchangeRateAdmin = () => {
   }, []);
 
   const [addExchangeRateData, setAddExchangeRateData] = useState({
-    _id: "",
-    date: "",
-    rate: "",
+    _id: '',
+    date: '',
+    rate: '',
   });
 
   const [editExchangeRateData, setEditExchangeRateData] = useState({
-    _id: "",
-    date: "",
-    rate: "",
+    _id: '',
+    date: '',
+    rate: '',
   });
 
   const handleAddChange = (e) => {
     e.preventDefault();
-    const fieldName = e.target.getAttribute("name");
+    const fieldName = e.target.getAttribute('name');
     const fieldValue = e.target.value;
 
     const newFormData = { ...addExchangeRateData };
@@ -48,7 +48,7 @@ const ExchangeRateAdmin = () => {
 
   const handleEditChange = (e) => {
     e.preventDefault();
-    const fieldName = e.target.getAttribute("name");
+    const fieldName = e.target.getAttribute('name');
     const fieldValue = e.target.value;
 
     const newFormData = { ...editExchangeRateData };
@@ -70,8 +70,8 @@ const ExchangeRateAdmin = () => {
         const newExchangeRates = [...exchangeRates, newExchangeRate];
         setExchangeRates(newExchangeRates);
       } else {
-        alert("error" + response.message);
-        console.log("error", response.message);
+        alert('error' + response.message);
+        console.log('error', response.message);
       }
     } catch (err) {}
   };
@@ -97,8 +97,8 @@ const ExchangeRateAdmin = () => {
         setExchangeRates(newExchangeRate);
         setEditExchangeRateId(null);
       } else {
-        alert("error" + response.message);
-        console.log("error", response.message);
+        alert('error' + response.message);
+        console.log('error', response.message);
       }
     } catch (err) {}
   };
@@ -115,8 +115,8 @@ const ExchangeRateAdmin = () => {
         newExchangeRate.splice(index, 1);
         setExchangeRates(newExchangeRate);
       } else {
-        alert("error" + response.message);
-        console.log("error", response.message);
+        alert('error' + response.message);
+        console.log('error', response.message);
       }
     } catch (err) {}
   };
@@ -124,11 +124,11 @@ const ExchangeRateAdmin = () => {
   const handleAddSubmit = (e) => {
     e.preventDefault();
 
-    /*----------------------------------------
-      Se debe validar los datos introducidos 
-    ----------------------------------------*/
-
-    /*---------------------------------------------------
+    /**
+     * TODO: VALIDATE INPUT
+     * 
+  
+    *---------------------------------------------------
       Se ingresa en la base de datos el nuevo registros 
     ----------------------------------------------------*/
 
@@ -167,9 +167,9 @@ const ExchangeRateAdmin = () => {
 
   const handleReset = () => {
     setAddExchangeRateData({
-      _id: "",
-      date: "",
-      rate: "",
+      _id: '',
+      date: '',
+      rate: '',
     });
   };
 
@@ -209,10 +209,9 @@ const ExchangeRateAdmin = () => {
             <tbody>
               {exchangeRates.map((rate) => {
                 return (
-                  <>
+                  <Fragment key={rate._id}>
                     {editExchangeRateId === rate._id ? (
                       <ExchangeRateRowUpdate
-                        key={rate._id}
                         accion="UPDATE"
                         exchangeRate={editExchangeRateData}
                         handleEditChange={handleEditChange}
@@ -221,13 +220,12 @@ const ExchangeRateAdmin = () => {
                       />
                     ) : (
                       <ExchangeRateRowRO
-                        key={rate._id}
                         exchangeRate={rate}
                         handleUpdate={handleUpdate}
                         handleDelete={handleDelete}
                       />
                     )}
-                  </>
+                  </Fragment>
                 );
               })}
             </tbody>

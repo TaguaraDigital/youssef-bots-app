@@ -38,7 +38,7 @@
         }
 
         &.subMenu > a:after {
-          content: "+";
+          content: '+';
           position: absolute;
           color: var(--whiteClr);
           display: inline-block;
@@ -46,7 +46,7 @@
         }
 
         &.subMenu:hover > a:after {
-          content: "-";
+          content: '-';
           position: absolute;
           color: var(--whiteClr);
           display: inline-block;
@@ -55,6 +55,11 @@
 
         &:hover > a {
           background-color: var(--darkClr);
+        }
+
+        .active {
+          color: red;
+          background-color: aqua;
         }
 
         &:hover {

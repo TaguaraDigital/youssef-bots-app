@@ -1,15 +1,15 @@
-import { headerData as data } from "./data";
-import { useState, useContext } from "react";
-import { Link } from "react-router-dom";
+import { headerData as data } from './data';
+import { useState, useContext } from 'react';
+import { Link } from 'react-router-dom';
 
-import logo from "../../assets/image/logos/logo.png";
-import { FaBars, FaTimes, FaSearch } from "react-icons/fa";
+import logo from '../../assets/image/logos/logo.png';
+import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
 
-import { StoreContext } from "../../hooks/contexts/StoreContext";
+import { StoreContext } from '../../hooks/contexts/StoreContext';
 
-import styles from "./header.module.scss";
-import User from "../user";
-import Setting from "../setting";
+import styles from './header.module.scss';
+import User from '../user';
+import Setting from '../setting';
 
 import {
   Center,
@@ -18,7 +18,7 @@ import {
   Left,
   Right,
   ToggleMenu,
-} from "./header.Styles";
+} from './header.Styles';
 
 const Header = () => {
   const { isShow, setIsShow } = useContext(StoreContext);
@@ -40,14 +40,14 @@ const Header = () => {
         <Center>
           <ul className={styles.navLinks}>
             {data.map((link) => {
-              return link.cName === "single" ? (
+              return link.cName === 'single' ? (
                 // Single Link
                 <li key={link.id}>
                   <Link to={link.path}>{link.title}</Link>
                 </li>
               ) : // Dropdown Link
 
-              link.cName === "dropdown" ? (
+              link.cName === 'dropdown' ? (
                 <li key={link.id} className={styles.subMenu}>
                   <Link to={link.path}>{link.title}</Link>
 
