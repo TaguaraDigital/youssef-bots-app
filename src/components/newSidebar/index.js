@@ -4,17 +4,17 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import { AnimatePresence, motion } from 'framer-motion';
 import SidebarMenu from './SidebarMenu';
-import HomeSidebar from './HomeSidebar';
+import ShipmentSidebar from './ShipmentSidebar';
 import './sidebar.scss';
 import { routes } from './dataRouteSidebar';
 
 const SideBar = ({ children }) => {
   const location = useLocation().pathname;
-  let sidebarTitle = 'Home';
+  let sidebarTitle = 'Shipment';
   let routersPage = routes.home;
 
   switch (location) {
-    case '/':
+    case '/shipment':
       sidebarTitle = 'Shipment Search';
       routersPage = routes.home;
       break;
@@ -103,7 +103,7 @@ const SideBar = ({ children }) => {
           </div>
 
           {sidebarTitle === 'Shipment Search' ? (
-            isOpen && <HomeSidebar />
+            isOpen && <ShipmentSidebar />
           ) : (
             <>
               <div className="search">

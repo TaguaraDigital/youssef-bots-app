@@ -57,7 +57,7 @@ export const shipmentsData = [
   },
 ];
 
-export const headerData = [
+export const shipmentHeaderData = [
   {
     id: '01',
     amount: 15002,

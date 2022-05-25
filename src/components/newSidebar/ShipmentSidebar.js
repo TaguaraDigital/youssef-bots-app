@@ -1,9 +1,9 @@
 import React from 'react';
 import './sidebar.scss';
 
-const HomeSidebar = () => {
+const ShipmentSidebar = () => {
   return (
-    <div className="home_sidebar">
+    <div className="shipment_sidebar">
       <form>
         <div>
           <label htmlFor="texarea"> Shipment Number</label>
@@ -65,4 +65,4 @@ const HomeSidebar = () => {
   );
 };
 
-export default HomeSidebar;
+export default ShipmentSidebar;

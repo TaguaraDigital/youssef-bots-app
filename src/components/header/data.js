@@ -46,29 +46,29 @@ export const headerData = [
     subMenu: [
       {
         id: 1,
-        title: 'Services  Group 1',
+        title: 'Shipments',
         path: 'title',
         cName: 'dropdown',
         icon: <FaIcons.FaAd />,
         subMenu: [
           {
             id: 1,
-            title: 'Service 1 - Op 1',
-            path: './marketin11',
+            title: 'Manage Shipment',
+            path: './shipment',
             cName: 'single',
-            icon: <FaIcons.FaAd />,
+            icon: <FaIcons.FaShip />,
           },
           {
             id: 2,
-            title: 'Service 1 - Op 2',
-            path: './marketin12',
+            title: 'Shipment - Op 2',
+            path: './shipment2',
             cName: 'single',
             icon: <FaIcons.FaBeer />,
           },
           {
             id: 3,
-            title: 'Service 1 - Op 3',
-            path: './',
+            title: 'Shipment - Op 3',
+            path: './shipment3',
             cName: 'single',
             icon: <FaIcons.FaBusinessTime />,
           },

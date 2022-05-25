@@ -4,6 +4,7 @@ import {
   FaLock,
   FaMailBulk,
   FaMoneyBill,
+  FaShip,
   FaSignOutAlt,
   FaSignInAlt,
   FaUser,
@@ -25,6 +26,11 @@ export const routes = {
       path: '/dashboard',
       name: 'Dashboard',
       icon: <AiOutlineDashboard />,
+    },
+    {
+      path: '/shipment',
+      name: 'Manage Shipment',
+      icon: <FaShip />,
     },
     {
       path: '/login',

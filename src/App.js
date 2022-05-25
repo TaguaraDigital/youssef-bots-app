@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { GlobalStyle } from './globalStyles';
 
-import Home from './pages/home';
+import Shipment from './pages/shipment';
 import Dashboard from './pages/dashboard';
 import Doc from './pages/doc';
 import Header from './components/header';
@@ -17,7 +17,7 @@ function App() {
       <Header />
       <SideBar>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/shipment" element={<Shipment />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/landing" element={<Landing />} />
           <Route path="*" element={<Doc />} />

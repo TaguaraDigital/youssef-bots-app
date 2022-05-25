@@ -1,10 +1,10 @@
-import { headerData } from '../../assets/data/shipmentData';
-import { Card, CardAvatar, CardInfo, Row } from './homeHeader.Styles';
+import { shipmentHeaderData } from '../../assets/data/shipmentData';
+import { Card, CardAvatar, CardInfo, Row } from './shipmentHeader.Styles';
 
-const HomeHeader = () => {
+const ShipmentHeader = () => {
   return (
     <Row>
-      {headerData.map((data) => {
+      {shipmentHeaderData.map((data) => {
         return (
           <Card key={data.id}>
             <CardAvatar>
@@ -25,4 +25,4 @@ const HomeHeader = () => {
   );
 };
 
-export default HomeHeader;
+export default ShipmentHeader;

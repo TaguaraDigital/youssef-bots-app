@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const DocSection = styled.section`
   min-height: 100vh;
@@ -10,10 +10,10 @@ export const DocSection = styled.section`
   p {
     line-height: 1.2;
     margin-bottom: 1rem;
-    max-width: 600px;
+    max-width: 850px;
   }
 `;
 export const DocTitle = styled.h1`
   text-align: center;
-  margin: 5rem 0;
+  margin-bottom: 2rem;
 `;

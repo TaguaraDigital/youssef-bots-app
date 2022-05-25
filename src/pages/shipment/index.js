@@ -1,14 +1,13 @@
-import { Container, SectionTitle } from './home.Styles';
+import { Container } from './shipment.Styles';
 
 import { shipmentsData } from '../../assets/data/shipmentData';
 import ShipmentCard from '../../components/shipingCard';
-import HomeHeader from '../../components/homeHeader';
+import ShipmentHeader from '../../components/shipmentHeader';
 
-const Home = () => {
+const Shipment = () => {
   return (
     <Container>
-      <SectionTitle>Home</SectionTitle>
-      <HomeHeader />
+      <ShipmentHeader />
       <h1>Manage Shipments</h1>
       {shipmentsData.map((shipment) => {
         return (
@@ -19,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Shipment;
