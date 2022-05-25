@@ -1,5 +1,5 @@
 :root {
-  --sidebar-width-open: 200px;
+  --sidebar-width-open: 250px;
   --sidebar-width-close: 50px;
 }
 
@@ -35,7 +35,7 @@ main {
   padding: 15px 10px;
 }
 .logo {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 0;
 }
 .bars {
@@ -117,5 +117,65 @@ main {
   .link {
     padding-left: 20px;
     border-bottom: var(--whiteClr) 0.5px solid;
+  }
+}
+
+.home_sidebar {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  form {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+    & > div {
+      margin-bottom: 2rem;
+    }
+
+    input,
+    textarea,
+    select,
+    input[type='.checkbox'] {
+      background-color: var(--whiteClr);
+      margin: 0;
+      width: 80%;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      background: var(--whiteClr);
+
+      color: var(--blackClr);
+    }
+
+    textarea {
+      overflow-y: scroll;
+      resize: none;
+    }
+
+    .checkbox {
+      width: 15px;
+      height: 15px;
+      margin-right: 0.5rem;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      label {
+        flex: 1;
+      }
+    }
+
+    .flex-column {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      select {
+        height: 30px;
+      }
+    }
   }
 }

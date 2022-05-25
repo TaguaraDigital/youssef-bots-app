@@ -1,12 +1,14 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { GlobalStyle } from "./globalStyles";
+import { GlobalStyle } from './globalStyles';
 
-import Dashboard from "./pages/home";
-import Doc from "./pages/doc";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import SideBar from "./components/newSidebar";
+import Home from './pages/home';
+import Dashboard from './pages/dashboard';
+import Doc from './pages/doc';
+import Header from './components/header';
+import Footer from './components/footer';
+import SideBar from './components/newSidebar';
+import Landing from './pages/landing';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <Header />
       <SideBar>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/landing" element={<Landing />} />
           <Route path="*" element={<Doc />} />
         </Routes>
       </SideBar>

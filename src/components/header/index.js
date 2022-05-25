@@ -1,34 +1,16 @@
 import { headerData as data } from './data';
-import { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/image/logos/logo.png';
-import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
-
-import { StoreContext } from '../../hooks/contexts/StoreContext';
+import { FaSearch } from 'react-icons/fa';
 
 import styles from './header.module.scss';
 import User from '../user';
 import Setting from '../setting';
 
-import {
-  Center,
-  HeaderForm,
-  HeaderLogo,
-  Left,
-  Right,
-  ToggleMenu,
-} from './header.Styles';
+import { Center, HeaderForm, HeaderLogo, Left, Right } from './header.Styles';
 
 const Header = () => {
-  const { isShow, setIsShow } = useContext(StoreContext);
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
-
-  const handleShowToggleMenu = () => {
-    setShowMobileMenu(!showMobileMenu);
-    setIsShow(!isShow);
-  };
-
   return (
     <nav className={styles.nav}>
       <div className={styles.wrapper}>

@@ -1,12 +1,33 @@
-import { NavLink } from "react-router-dom";
-import { FaBars, FaSearch } from "react-icons/fa";
-import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import SidebarMenu from "./SidebarMenu";
-import "./sidebar.scss";
-import { routes } from "./dataRouteSidebar";
+import { useState } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
+
+import { FaBars, FaSearch } from 'react-icons/fa';
+import { AnimatePresence, motion } from 'framer-motion';
+import SidebarMenu from './SidebarMenu';
+import HomeSidebar from './HomeSidebar';
+import './sidebar.scss';
+import { routes } from './dataRouteSidebar';
 
 const SideBar = ({ children }) => {
+  const location = useLocation().pathname;
+  let sidebarTitle = 'Home';
+  let routersPage = routes.home;
+
+  switch (location) {
+    case '/':
+      sidebarTitle = 'Shipment Search';
+      routersPage = routes.home;
+      break;
+
+    case '/dashboard':
+      sidebarTitle = 'Dashboard';
+      routersPage = routes.others;
+      break;
+    default:
+      sidebarTitle = 'Documentation';
+      break;
+  }
+
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
@@ -19,8 +40,8 @@ const SideBar = ({ children }) => {
       },
     },
     show: {
-      width: "140px",
-      padding: "5px 15px",
+      width: '140px',
+      padding: '5px 15px',
       transition: {
         duration: 0.2,
       },
@@ -37,7 +58,7 @@ const SideBar = ({ children }) => {
     },
     show: {
       opacity: 1,
-      width: "auto",
+      width: 'auto',
       transition: {
         duration: 0.5,
       },
@@ -50,12 +71,12 @@ const SideBar = ({ children }) => {
         <motion.div
           animate={{
             width: isOpen
-              ? "var(--sidebar-width-open"
-              : "var(--sidebar-width-close",
+              ? 'var(--sidebar-width-open'
+              : 'var(--sidebar-width-close',
 
             transition: {
               duration: 0.5,
-              type: "spring",
+              type: 'spring',
               damping: 10,
             },
           }}
@@ -71,7 +92,7 @@ const SideBar = ({ children }) => {
                   exit="hidden"
                   className="logo"
                 >
-                  Menu
+                  {sidebarTitle}
                 </motion.h1>
               )}
             </AnimatePresence>
@@ -80,61 +101,69 @@ const SideBar = ({ children }) => {
               <FaBars onClick={toggle} />
             </div>
           </div>
-          <div className="search">
-            <div className="search_icon">
-              <FaSearch />
-            </div>
-            <AnimatePresence>
-              {isOpen && (
-                <motion.input
-                  initial="hidden"
-                  animate="show"
-                  exit="hidden"
-                  variants={inputAnimation}
-                  type="text"
-                  placeholder="Search"
-                />
-              )}
-            </AnimatePresence>
-          </div>
-          <section className="routes">
-            {routes.map((route, index) => {
-              if (route.subRoutes) {
-                return (
-                  <SidebarMenu
-                    setIsOpen={setIsOpen}
-                    route={route}
-                    showAnimation={showAnimation}
-                    isOpen={isOpen}
-                  />
-                );
-              }
 
-              return (
-                <NavLink
-                  to={route.path}
-                  key={index}
-                  className="link"
-                  activeClassName="active"
-                >
-                  <div className="icon">{route.icon}</div>
-                  <AnimatePresence>
-                    {isOpen && (
-                      <motion.div
-                        variants={showAnimation}
-                        initial="hidden"
-                        animate="show"
-                        exit="hidden"
-                        className="link_text"
-                      >
-                        {route.name}
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </NavLink>
-              );
-            })}
-          </section>
+          {sidebarTitle === 'Shipment Search' ? (
+            isOpen && <HomeSidebar />
+          ) : (
+            <>
+              <div className="search">
+                <div className="search_icon">
+                  <FaSearch />
+                </div>
+                <AnimatePresence>
+                  {isOpen && (
+                    <motion.input
+                      initial="hidden"
+                      animate="show"
+                      exit="hidden"
+                      variants={inputAnimation}
+                      type="text"
+                      placeholder="Search"
+                    />
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <section className="routes">
+                {routersPage.map((route, index) => {
+                  if (route.subRoutes) {
+                    return (
+                      <SidebarMenu
+                        setIsOpen={setIsOpen}
+                        route={route}
+                        showAnimation={showAnimation}
+                        isOpen={isOpen}
+                      />
+                    );
+                  }
+
+                  return (
+                    <NavLink
+                      to={route.path}
+                      key={index}
+                      className="link"
+                      activeClassName="active"
+                    >
+                      <div className="icon">{route.icon}</div>
+                      <AnimatePresence>
+                        {isOpen && (
+                          <motion.div
+                            variants={showAnimation}
+                            initial="hidden"
+                            animate="show"
+                            exit="hidden"
+                            className="link_text"
+                          >
+                            {route.name}
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </NavLink>
+                  );
+                })}
+              </section>
+            </>
+          )}
         </motion.div>
 
         <main>{children}</main>

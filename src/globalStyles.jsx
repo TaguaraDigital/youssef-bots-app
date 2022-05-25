@@ -1,8 +1,8 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-  --whiteClr: #afddee;
+  --whiteClr: #ebfafc;
   --blackClr: #323232;
   --bgLightClr: #b8bac7;
   --bgDarkClr: #38414a;
